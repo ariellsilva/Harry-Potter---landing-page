@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>Harry Potter</title>
+</head>
+<body>
+<nav>
+    <a href="#menu">Menu</a>
+    <a href="#Sobre">Sobre</a>
+    <a href="#personagens">Personagens</a>
+    <a href="#Filmes">Filmes</a>
+    <a href="#Autora">Autora</a>
+</nav>
+
+<header id="menu">
+    <div class="botao">
+        <a href="https://www.hbomax.com/br/pt/channel/harry-potter" target="_blank"><button class="hbo">Assistir Já</button></a>
+        <a href="https://pt.wikipedia.org/wiki/Harry_Potter" target="_blank"><button class="internet">Saiba mais</button></a>
+    </div>
+</header>
+
+    <main>
+        <section id="nomes">
+        <div id="Letreiro">
+        
+        <div>
+        <h2>"Hermione Granger"</h2>
+        <span>-Emma Watson</span>
+        </div>
+
+        <div>
+        <h2>"Harry Potter"</h2>
+         <span>Daniel Radcliffe</span>
+        </div>
+
+        <div>
+        <h2>"Rony Wesley"</h2>
+        <span>Rupert Grint</span>
+        </div>
+
+        <div>
+        <h2>"Albus Dumbledore"</h2>
+        <span>Michael Gambon</span>
+        </div>
+        
+        <div>
+        <h2>"Lord Voldemort"</h2>
+       <span>Richard Bremmer</span>
+       </div> 
+
+       <div>
+          <h2>"Hermione Granger"</h2>
+        <span>-Emma Watson</span>
+        </div>
+
+        <div>
+        <h2>"Harry Potter"</h2>
+         <span>Daniel Radcliffe</span>
+        </div>
+
+        <div>
+        <h2>"Rony Wesley"</h2>
+        <span>Rupert Grint</span>
+        </div>
+
+        <div>
+        <h2>"Albus Dumbledore"</h2>
+        <span>Michael Gambon</span>
+        </div>
+        
+        <div>
+        <h2>"Lord Voldemort"</h2>
+       <span>Richard Bremmer</span>
+       </div> 
+    
+       </div>
+       </section>
+
+        <hr>
+        <section id="Sobre">
+          
+            <h1>Harry Potter: A Saga que Conquistou o Mundo</h1>
+
+           <img src="img/harry-potter-pedra-filosofal.jpg" alt="">
+           
+           <p>Harry Potter surgiu em 1997, quando a escritora J. K. Rowling publicou o primeiro livro da série, Harry Potter and the Philosopher's Stone. A história acompanha um jovem garoto que descobre ser um bruxo e passa a estudar na famosa escola de magia Hogwarts. A partir desse momento, Harry entra em um mundo cheio de magia, criaturas fantásticas e grandes desafios, enquanto aprende sobre amizade, coragem e o valor de lutar pelo que é certo.</p> 
+
+
+           <p>O universo criado por Rowling conquistou leitores de todas as idades graças à sua narrativa envolvente e personagens cativantes. Com o tempo, a saga se transformou em um fenômeno mundial, vendendo centenas de milhões de livros e sendo adaptada para uma série de filmes de enorme sucesso pela Warner Bros..</p>
+
+           <p>Mais do que apenas uma história de fantasia, Harry Potter se tornou um marco cultural que influenciou gerações de leitores e fãs ao redor do mundo, consolidando-se como uma das franquias mais populares da história da literatura e do cinema.</p>
+
+           </section>
+
+        <section id="Casas">
+            <h1>Qual é a sua casa em hogwarts?</h1>
+            <p>Em Hogwarts, sua casa é mais do que um dormitório; é sua família e o reflexo da sua essência. O Chapéu Seletor não analisa apenas seus poderes, mas o que você carrega no coração.
+
+Grifinória (Gryffindor): Onde habitam os de coração indômito. Seus membros são conhecidos pela coragem, bravura e determinação, prontos para lutar pelo que é certo, não importa o perigo.
+
+Sonserina (Slytherin): Para os astutos que usam qualquer meio para atingir seus fins. Valoriza a ambição, a liderança e a preservação do próprio legado, abrigando bruxos que buscam a grandeza acima de tudo.
+
+Corvinal (Ravenclaw): O refúgio dos que possuem a mente alerta. Aqui, o aprendizado e a sabedoria são os maiores tesouros, e o espírito de inteligência e criatividade define cada aluno.
+
+Lufa-Lufa (Hufflepuff): Onde a lealdade e a paciência prevalecem. É a casa dos justos e trabalhadores, que acreditam que o valor de um bruxo está na sua bondade e na força de suas amizades.</p>
+
+   <div id="card-harry">
+
+    <div class="grifinoria">
+        <a href=""><img src="img/grifinoria.png" alt=""></a>
+        <div class="info">
+        <h1>Grifinoria</h1>
+        <p>Um pouco sobre a grifinoria...</p>
+        <span onclick="informar()">Ver sobre casa</span>
+
+        <dialog id="modal1">
+            <h1>Gryffindor!</h1>
+            <p>Coragem e Bravura. Onde habitam os de coração indômito, conhecidos pela ousadia e pelo cavalheirismo. Suas cores, vermelho e dourado, refletem o espírito de quem não recua diante de um desafio.</p>
+
+            <a href="https://www.harrypotter.com/pt" target="_blank"><button class="Acessar">Fazer o teste</button></a>
+
+            <button onclick="minimizar()" class="minimizar">X</button>
+
+        </dialog>
+    </div>
+    </div>
+
+   <div class="sonserina">
+    <a href=""><img src="img/sonserina.png" alt=""></a>
+    <div class="info">
+    <h1>Sonserina</h1>
+    <p>Um pouco sobre a sonserina...</p>
+    <span onclick="saber()">Ver sobre casa</span>
+    
+    <dialog id="modal2">
+    <h1>Slytherin!</h1>
+    <p>Ambição e Astúcia. Um lar para aqueles que buscam a grandeza e utilizam todos os meios para alcançar seus objetivos. Marcada pelo verde e prata, valoriza a preservação, o orgulho e o senso de liderança.</p>
+   <a href="https://www.harrypotter.com/pt" target="_blank"><button class="Acessar">Fazer o teste</button></a>
+    <button onclick="fechando()" class="minimizar">X</button>
+    </dialog>
+   </div>
+   </div>
+
+   <div class="lufa">
+    <a href=""><img src="img/lufa.png" alt=""></a>
+    <div class="info">
+    <h1>Lufa-Lufa</h1>
+    <p>Um pouco sobre a lufa Lufa...</p>
+   <span onclick="checar()">Ver sobre casa</span>
+
+   <dialog id="modal3">
+    <h1>Hufflepuff!</h1>
+    <p>Lealdade e Paciência. Onde a justiça e o trabalho árduo caminham lado a lado. Seus membros, sob as cores amarelo e preto, são conhecidos pela amizade verdadeira, pela honestidade e por não temerem o esforço.</p>
+    <a href="https://www.harrypotter.com/pt" target="_blank"><button class="Acessar">Fazer o teste</button></a>
+    <button onclick="sair()" class="minimizar">X</button>
+   </dialog>
+  </div>  
+  </div>    
+
+  <div class="corvinal">
+  <a href=""><img src="img/corvinal.png" alt=""></a>
+  <div class="info">
+  <h1>Corvinal</h1>
+  <p>Um pouco sobre a corvinal...</p>
+  <span onclick="saberSobre()">Ver sobre casa</span>
+
+  <dialog id="modal4">
+    <h1>Ravenclaw!</h1>
+    <p>Inteligência e Sabedoria. O refúgio dos mente-aberta, onde o aprendizado e a curiosidade são os maiores tesouros. Em tons de azul e bronze, acolhe aqueles que demonstram espírito de prontidão e originalidade.</p>
+    <a href="https://www.harrypotter.com/pt" target="_blank"><button class="Acessar">Fazer o teste</button></a>
+    <button onclick="pular()" class="minimizar">X</button>
+  </dialog>
+  </div>
+  </div>
+
+   </div>
+        </section>
+
+ <section id="personagens">
+    <h1>Personagens da Saga</h1>
+    <p>A saga Harry Potter apresenta personagens marcantes que ajudam a construir a história do mundo mágico. Entre heróis corajosos, amigos leais e poderosos bruxos, cada personagem possui um papel importante na luta entre o bem e o mal, tornando a jornada ainda mais emocionante.</p>
+<br>
+
+<div id="descricao">
+<div class="figuras">
+<h3 id="nome">Personagens</h3>
+<p id="descricaoTexto">Clique nas imagens para saber mais sobre os bruxos</p>
+</div>
+
+<div id="miniaturas">
+     <img src="img/harry capa.jpg" alt="harry" onclick="trocar('harry')">
+    <img src="img/hermione capa.webp" alt="hermione" onclick="trocar('hermione')">
+    <img src="img/ron weasley capa.jpg" alt="rony" onclick="trocar('rony')">
+    <img src="img/dumbledore capa.webp" alt="dumbledor" onclick="trocar('dumbledor')">
+    <img src="img/Voldemort capa.webp" alt="valdemort" onclick="trocar('valdemort')">
+
+</div>
+
+<a href="">
+    <img id="imagemPrincipal" src="img/harry gif.gif" alt="">
+</a>
+
+</div>
+
+ </section>
+
+ <section id="Filmes">
+    <h1>Hogwarts: Uma História Através dos Filmes</h1>
+    <p>A saga Harry Potter também ganhou vida nas telas de cinema, conquistando milhões de fãs ao redor do mundo. Os filmes acompanham a jornada de Harry e seus amigos em Hogwarts, mostrando o crescimento dos personagens, os desafios enfrentados e a luta contra as forças das trevas lideradas por Voldemort. Cada filme expande o universo mágico criado por J.K. Rowling e marcou uma geração de espectadores.</p>
+
+    <div id="card-videos">
+
+
+    
+      <iframe src="https://www.youtube.com/embed/O7JVilOQdZ4?si=fep6ZZcINZH907hv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      
+ 
+      <iframe src="https://www.youtube.com/embed/zZJ12Q_j5dc?si=MWWp8cubkUr4ylZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      
+      
+      <iframe src="https://www.youtube.com/embed/e02fwhC6DiQ?si=fCtqXZMQY4v9ccMq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   
+      
+      
+      <iframe src="https://www.youtube.com/embed/cVKkL4O60IM?si=QNNkGrGkDaNFDEMV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+     
+     
+     <iframe src="https://www.youtube.com/embed/ZkDCaxUNV3o?si=ZJcHAfNpkrNi5MjT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+
+     
+      <iframe src="https://www.youtube.com/embed/sG-LDd5IUAk?si=9CO9FltsOnd0NzD1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+
+ 
+      <iframe src="https://www.youtube.com/embed/CwH5FqG9S2g?si=E8CSS6Ry5sLeqXwh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+     
+      <iframe src="https://www.youtube.com/embed/Uy5Zmno7aZ4?si=bgXXcGo4lj8y6SEX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   
+
+
+    </div>
+
+ </section>
+
+ <section id="Autora">
+  
+<h1>A Mente por Trás da Magia: J.K. Rowling</h1>
+<p>A série Harry Potter foi criada pela escritora britânica J. K. Rowling, que imaginou um universo mágico repleto de escolas de magia, criaturas fantásticas e batalhas entre o bem e o mal. A ideia para a história surgiu nos anos 1990, durante uma viagem de trem, quando Rowling começou a imaginar um jovem bruxo que descobria seu verdadeiro destino. Após enfrentar diversas dificuldades e ter o manuscrito rejeitado por várias editoras, seu primeiro livro, Harry Potter and the Philosopher's Stone, foi finalmente publicado em 1997.
+
+A obra rapidamente conquistou leitores ao redor do mundo graças à sua narrativa envolvente, personagens marcantes e à forma como mistura aventura, amizade e mistério. Com o sucesso do primeiro livro, a história continuou em mais seis volumes, acompanhando o crescimento de Harry Potter e seus amigos na Escola de Magia e Bruxaria de Hogwarts, enquanto enfrentam desafios cada vez maiores e a ameaça do poderoso bruxo das trevas Voldemort.</p>
+
+<img src="img/livro.webp" alt="" id="livro" onclick="saberMais()">
+
+<dialog id="modal">
+    
+    <button onclick="fechar()">X</button>
+    <h1>O primeiro Exemplar!</h1>
+    <p>O primeiro exemplar de Harry Potter marcou o início de uma das sagas mais famosas da literatura moderna. Publicado em 1997, o livro apresentou ao mundo a história de um jovem bruxo que descobre seu lugar em um universo mágico cheio de mistérios, amizades e desafios.</p>
+
+</dialog>
+
+ </section>
+
+ <section id="Assistir">
+
+ </section>
+
+ <footer id="direitos">
+    <h4>© 2026 Harry Potter. Todos os direitos reservados.</h4>
+
+    <p>Produzido por Warner Bros. Pictures</p>
+
+ </footer>
+  
+
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
